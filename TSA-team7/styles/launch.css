@@ -44,6 +44,7 @@ nav{
     padding: 18px 3px;
     margin: 0px 30%;
     bottom:30px;
+    background-color: var(--desaturated-purple);
   }
    .parallax-middle h1{
       display: flex;
