@@ -4,8 +4,9 @@ $(document).ready(function(){
     links.each((index, element) => {
         fetch(element.href).then((response) => response.text())
         .then((data) => {
+            var dom = document.implementation.createHTMLDocument(element.href);
             console.log(data);
-            otherPageInfo[element.href] = $(data);
+            otherPageInfo[element.href] = $(dom);
             
         });
     });
