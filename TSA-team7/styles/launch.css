@@ -10,7 +10,7 @@ nav{
   }
   
   .parallax {
-      background-image: url("../media/team5/man-posing-dressed-as-an-astronaut-in-skyrocket-el-2022-12-16-22-02-36-utc.jpg");
+      background-image: url("../media/Images/old-img/man-posing-dressed-as-an-astronaut-in-skyrocket-el-2022-12-16-22-02-36-utc.jpg");
       min-height: 300px;
       background-attachment: fixed;
       background-position: center;
@@ -19,7 +19,7 @@ nav{
       
   }
   .parallax-middle {
-      background-image: url("../media/team5/man-posing-dressed-as-an-astronaut-in-skyrocket-el-2022-12-16-22-02-36-utc.jpg");
+      background-image: url("../media/Images/old-img/man-posing-dressed-as-an-astronaut-in-skyrocket-el-2022-12-16-22-02-36-utc.jpg");
       min-height: 100px;
       background-attachment: fixed;
       background-position: center;
@@ -44,6 +44,7 @@ nav{
     padding: 18px 3px;
     margin: 0px 30%;
     bottom:30px;
+    background-color: var(--desaturated-purple);
   }
    .parallax-middle h1{
       display: flex;

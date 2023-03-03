@@ -20,7 +20,7 @@ nav{
  }
 
  .parallax {
-    background-image: url("../media/team5/2.jpg");
+    background-image: url("../media/Images/backgrounds/stars.png");
     min-height: 550px;
     background-attachment: fixed;
     background-position: center;
@@ -30,12 +30,12 @@ nav{
 }
 
 .info-header {
-    font-family: 'Space Mono', monospace;
-    font-size: 40px;
-    text-align: center;
-    margin: 70px;
-    padding: 80px;
-    background-color: var(--off-black);
-    color: var(--yellow);
-
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 18px 3px;
+    margin: 0px 30%;
+    bottom:10px;
+    font-size: 45px;
+    background-color: var(--desaturated-purple);
 }
