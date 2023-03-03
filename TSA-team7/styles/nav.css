@@ -7,11 +7,11 @@ body{
     --cobalt-blue: #17143b;
 }
 
-
 .nav-wrapper {
     padding: 20px;
     margin: 32px;
     margin-top: 0px;
+    position: sticky;
 
 }
 
@@ -20,7 +20,7 @@ body{
     text-decoration: none;
     list-style-type: none;
     display: grid;
-    grid-template-columns: 7fr 1fr 1fr 1fr;
+    grid-template-columns: 7fr 1fr 1fr 1fr 1fr;
 }
 
 .nav-item > a {

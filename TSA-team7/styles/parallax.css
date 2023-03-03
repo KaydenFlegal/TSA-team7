@@ -1,0 +1,51 @@
+body {
+    --yellow: #f0eeb1;
+    --yellow-white: #eeedd2;
+    --off-white: #ecece0;
+    --purple-gray: #272529;
+    --desaturated-purple: #3c3347;
+    --cobalt-blue: #17143b;
+}
+
+
+.hero-section {
+    background-image: url(../media/team5/5.jpg);
+    padding: 200px;
+    padding-top: 0px;
+    height: 900px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .top-heading {
+    padding: 1px 20px;
+    color:  #d4d4d0;
+    width: 290px;
+    border-radius: 2px;
+    font-family: 'Space Mono', monospace;
+}
+
+.hero-section > .bottom-heading {
+    color: var(--yellow-white);
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 200px;
+    border-radius: 2px;
+    font-family: 'Golos Text', sans-serif;
+
+}
+
+.safety-info {
+    background-image: url(../media/team5/8.jpg);
+    padding: 200px;
+    padding-top: 0px;
+    height: 800px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

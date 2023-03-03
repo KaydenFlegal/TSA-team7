@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+    --yellow: #f0eeb1;
+    --yellow-white: #eeedd2;
+    --off-white: #ecece0;
+    --purple-gray: #272529;
+    --desaturated-purple: #3c3347;
+    --cobalt-blue: #17143b;
+
+    background-color: var(--purple-gray);
+    color:var(--off-white);
+}
+
+p, h2, h3, h4, h5, h6 {
+    font-family: 'Golos Text', sans-serif;
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+}
