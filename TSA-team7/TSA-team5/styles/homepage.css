@@ -1,0 +1,120 @@
+body {
+    --yellow: #f0eeb1;
+    --yellow-white: #eeedd2;
+    --off-white: #ecece0;
+    --purple-gray: #272529;
+    --desaturated-purple: #3c3347;
+    --cobalt-blue: #17143b;
+}
+
+.welcome-section {
+    background-color: var(--purple-gray);
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px double #161516;
+    border: 10px double #161516;
+
+}
+
+.about-text {
+    color: var(--off-white);
+    margin: 0px 10%;
+    text-align: center;
+    text-align: center;
+}
+
+.about-text > h1 {
+    letter-spacing: 3px;
+    margin: auto;
+    text-align: center;
+    color: var(--yellow);
+    margin: 30px;
+
+}
+
+.flight-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    background-color: var(--desaturated-purple);
+    margin-bottom: 0px;
+
+}
+
+.info-tab {
+    padding: 100px;
+    background-color: #161516;
+    margin: 0px 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.info-tab > img {
+    width: 300px;
+    padding: 20px;
+    background-color: var(--purple-gray);
+    margin: auto;
+}
+
+.info-tab > button {
+    background-color: var(--desaturated-purple);
+    color: var(--off-white);
+    font-size: 26px;
+    text-align: center;
+    padding: 15px 30px;
+    font-family: 'Space Mono', monospace;
+    margin: 10%;
+}
+
+.info-tab > button:hover {
+    background-color: var(--yellow);
+    color: var(--purple-gray)
+}
+
+.info-tab > button:active {
+    background-color: var(--cobalt-blue);
+    color: var(--yellow);
+}
+
+.info-tab > button > a {
+    text-decoration: none;
+    color: var(--off-white)
+}
+
+.info-tab > button > a:hover {
+    color: var(--purple-gray);
+}
+
+.launch-vid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.launch-info > p, .launch-info > p > a{
+    text-align: center;
+    padding: 80px;
+    background-color:#161516;
+    font-family: 'Space Mono', monospace;
+    text-decoration: none;
+    color: var(--off-white);
+    margin: 0;
+    font-size: 60px;
+}
+
+.launch-info > p > a:hover{
+    color:var(--yellow);
+    background-color:var(--desaturated-purple);
+}
+
+.safety-info {
+    padding: 10px;
+
+}
+
+.safety-back{
+    width: 100%;
+    background-image: url('media/team5/8.jpeg')
+
+}
