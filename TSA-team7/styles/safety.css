@@ -1,0 +1,75 @@
+body{
+    --yellow: #f0eeb1;
+    --yellow-white: #eeedd2;
+    --off-white: #ecece0;
+    --purple-gray: #272529;
+    --desaturated-purple: #3c3347;
+    --cobalt-blue: #17143b;
+}
+
+.parallax {
+    background-image: url("../media/team5/astronaut-2021-08-26-15-29-33-utc.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax-two {
+    background-image: url("../media/team5/astronaut-2021-08-26-15-29-33-utc.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav{
+   padding: 200px;
+   padding-top: 0px;
+   height: 300px;
+   margin: 0px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.squares-wrapper {
+    display: flex;
+    justify-content: center;
+ }
+
+ .squares-wrapper > .squares {
+    width: 1000px;
+    margin-top: 20px;
+ }
+
+ .squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+ }
+
+ .square > .img-wrapper img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  margin-bottom: 4px;
+ }
+
+ .square > .square-text-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+ }
+
+ .square > .square-text-wrapper a{
+    text-decoration: none;
+    color: var(--off-white);
+ }
