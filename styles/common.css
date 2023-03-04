@@ -10,8 +10,18 @@ body, .other-pages {
     --purple-gray: #272529;
     --desaturated-purple: #3c3347;
     --cobalt-blue: #17143b;
+    --darker-blue: #0b0920;
 
-    background-color: var(--purple-gray);
+    --crimson: #D80032;
+    --rich-black: #00000E;
+    --oxford-blue: #000022;
+    --penn-blue: #001242;
+    --russian-violet: #3A2353;
+    --lavender: #F0E7FA;
+    --magnolia: #F8F0FB;
+    
+
+    background-color: var(--darker-blue);
     color:var(--off-white);
 }
 nav{
@@ -20,7 +30,7 @@ nav{
     padding-top: 0px;
     height: 200px;
     margin: 0px;
-    background-attachment: fixed;
+    position: sticky;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,6 +43,7 @@ p, h2, h3, h4, h5, h6 {
 h1 {
     font-family: 'Russo One', sans-serif;
 }
+
 
 /* 
 new little font: font-family: 'Kanit', sans-serif;

@@ -8,7 +8,7 @@ body {
 }
 
 .welcome-section {
-    background-color: var(--purple-gray);
+    background-color: var(--darker-blue);
     padding: 5%;
     display: flex;
     justify-content: center;

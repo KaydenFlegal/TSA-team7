@@ -15,6 +15,19 @@ nav {
    position: fixed;
 }
 
+.safety-header {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   position: relative;
+   padding: 2%;
+   margin: 0 30%;
+   bottom: 10px;
+   font-size: 45px;
+   font-family: 'Russo One', sans-serif;
+   
+   border-radius: 10em;
+}
 .parallax {
    padding-top: 200px;
     background-image: url("../media/Images/childastronaut.jpg");
@@ -44,7 +57,7 @@ nav {
  .squares-wrapper > .squares {
     width: 1000px;
     margin-top: 20px;
-    background-color: #17143b6c;
+    background-color: #17143b97;
 
  }
 

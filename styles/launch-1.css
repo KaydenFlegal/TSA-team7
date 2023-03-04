@@ -26,6 +26,20 @@
   
 }
 
+.launch-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 2%;
+  margin: 0 30%;
+  bottom: 10px;
+  font-size: 45px;
+  font-family: 'Russo One', sans-serif;
+  color:var(--penn-blue);
+  border-radius: 1em;
+}
+
 body {
   box-sizing: border-box;
   font-family: 'Kanit', sans-serif;
@@ -177,7 +191,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 40vh;
   width: 100%;
 }
 
@@ -276,24 +290,24 @@ body {
 .card-front__tp--city {
   background: linear-gradient(
     to bottom,
-    #512187,
-    #2a1058
+    #03020a,
+    #102058
   );
 }
 
 .card-front__tp--ski {
   background: linear-gradient(
     to bottom,
-    #512187,
-    #2a1058
+    #03020a,
+    #102058
   );
 }
 
 .card-front__tp--beach {
   background: linear-gradient(
     to bottom,
-    #512187,
-    #2a1058
+    #03020a,
+    #102058
   );
 }
 
