@@ -26,17 +26,7 @@ body{
     background-size: cover;
     
 }
-nav{
-   font-family:'Kanit', sans-serif ;
-   padding: 0px 200px;
-   padding-top: 0px;
-   height: 100px;
-   margin: 0px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
+
 .squares-wrapper {
     display: flex;
     justify-content: center;
