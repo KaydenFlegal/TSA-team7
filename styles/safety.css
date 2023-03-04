@@ -7,7 +7,16 @@ body{
     --cobalt-blue: #17143b;
 }
 
+nav {
+   height: auto;
+}
+
+.nav-wrapper {
+   position: fixed;
+}
+
 .parallax {
+   padding-top: 200px;
     background-image: url("../media/Images/childastronaut.jpg");
     min-height: 500px;
     background-attachment: fixed;

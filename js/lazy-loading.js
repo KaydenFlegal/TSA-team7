@@ -40,14 +40,14 @@ $(window).ready(function(){
 
             // Adding Stylesheets, Scripts, to header
             $("head title").remove();
-            $("head").prepend(newPage.find("head *").addClass("keep"));
+            $("head").prepend(newPage.find("head").children().addClass("keep"));
 
             // Updating User History and Current URL
             window.history.pushState({ additionalInformation: 'Updated the URL with JS' }, newPage.find("title").text(), evt.target.href);
             window.history.replaceState({ additionalInformation: 'Updated the URL with JS' }, newPage.find("title").text(), evt.target.href);
 
             PlayingAnimation = true;
-            newPageElements.animate({
+            newPageElements.delay( 50 ).animate({
                 top: 0
                 }, 1500, function() {
                     console.log("Done with Animation")
