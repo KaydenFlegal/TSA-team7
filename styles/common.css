@@ -1,4 +1,8 @@
-body {
+::-webkit-scrollbar { 
+    display: none;
+}
+
+body, .other-pages {
     margin: 0px;
     --yellow: #f0eeb1;
     --yellow-white: #eeedd2;

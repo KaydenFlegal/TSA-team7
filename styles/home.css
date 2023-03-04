@@ -17,6 +17,10 @@
     /* Custom perspective prop */
     --z-height: 0;
 }
+.other-pages {
+    background-color: transparent;
+    
+}
 
 
 nav{

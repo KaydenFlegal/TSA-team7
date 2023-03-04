@@ -1,10 +1,11 @@
 let discount = 1;
 let planetIndex = 0;
+
 function movePlanets(newIndex) {
     let targetValue = -10000;
 
     $("main > .destination-wrapper").each((index, element) => {
-        console.log((targetValue*index)+"px");
+        //console.log((targetValue*index)+"px");
         element.style.setProperty("--z-height", (targetValue*(index-newIndex))+"px");
         element.style.setProperty("--planet-scale", Math.max(1-Math.abs(2*(index-newIndex)),0));
     });
@@ -57,7 +58,8 @@ function updateCalendar(cells, selectedStartPos, selectedEndPos, discount){
     });
 }
 
-$(document).ready(function() {
+function onPageLoad() {
+    console.log("Loading Home")
     /* scroll through planets using scroll wheel */
     $(document).on("wheel", (e) => {
         if($("main > .destination-wrapper").first().is(':animated')) return;
@@ -128,4 +130,19 @@ $(document).ready(function() {
             updateCalendar(cells, selectedStartPos, cellIndex, discount);
         }
     })
-});
+}
+
+
+if(document.readyState === 'complete'){
+    console.log("Path 1");
+    onPageLoad();
+}else{
+    console.log("Path 2");
+    document.onreadystatechange = () => {
+        if (document.readyState === 'complete') {
+          // document ready
+          onPageLoad();
+          document.onreadystatechange = null;
+        }
+      };
+}

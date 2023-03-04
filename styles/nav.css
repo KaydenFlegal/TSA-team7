@@ -8,6 +8,7 @@ body{
 }
 
 .nav-wrapper {
+    z-index: 125;
     padding: 20px;
     margin: 32px;
     margin-top: 10px;
