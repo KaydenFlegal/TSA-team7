@@ -30,7 +30,7 @@ nav{
    font-family:'Kanit', sans-serif ;
    padding: 0px 200px;
    padding-top: 0px;
-   height: 3px;
+   height: 100px;
    margin: 0px;
    background-attachment: fixed;
    background-position: center;
@@ -45,6 +45,7 @@ nav{
  .squares-wrapper > .squares {
     width: 1000px;
     margin-top: 20px;
+    background-color: #17143b6c;
  }
 
  .squares-wrapper > .squares > .square {
