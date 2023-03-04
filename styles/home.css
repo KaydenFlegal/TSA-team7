@@ -33,7 +33,7 @@ body {
     background-image: url(../media/Images/backgrounds/stars.png);
     background-repeat: repeat;
     color: var(--cream);
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Kanit', sans-serif;
     margin: 0;
     overflow: hidden;
     height: max-content;

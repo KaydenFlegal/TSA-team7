@@ -12,14 +12,16 @@ body {
 }
 
 p, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Russo One', sans-serif; 
 }
 
 h1 {
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 /* 
-little font: font-family: 'Roboto Mono', monospace;
-big font: font-family: 'Russo One', sans-serif; 
+new little font: font-family: 'Kanit', sans-serif;
+old little font: font-family: 'Space Mono', monospace;
+new big font: font-family: 'Russo One', sans-serif; 
+old big font: font-family: 'Golos Text', sans-serif;
 */
