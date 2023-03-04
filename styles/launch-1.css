@@ -63,7 +63,7 @@ body {
 }
 
 .inside-page__heading--city,
-.card-front__text-view--city { color: #ff62b2; }
+.card-front__text-view--city { color: #2a1058; }
 
 .inside-page__heading--ski,
 .card-front__text-view--ski { color: #2aaac1; }
@@ -133,7 +133,7 @@ body {
 
 .inside-page__btn--city { 
   border-color: #ff40a1;
-  color: #ff40a1;
+  color:#2a1058;
 }
 
 .inside-page__btn--city::before { 
@@ -198,7 +198,8 @@ body {
 /* Area to hold an individual card */
 .card-section {
   display: flex;
-  height: 15rem;
+  align-items: center;
+  height: 1rem;
   justify-content: center;
   width: 100%;
 }
@@ -278,34 +279,28 @@ body {
 .card-front__tp--city {
   background: linear-gradient(
     to bottom,
-    #ff73b9,
-    #ff40a1
+    #512187,
+    #2a1058
   );
 }
 
 .card-front__tp--ski {
   background: linear-gradient(
     to bottom,
-    #47c2d7,
-    #279eb2
+    #512187,
+    #2a1058
   );
 }
 
 .card-front__tp--beach {
   background: linear-gradient(
     to bottom,
-    #fb9b88,
-    #f86647
+    #512187,
+    #2a1058
   );
 }
 
-.card-front__tp--camping {
-  background: linear-gradient(
-    to bottom,
-    #00db93,
-    #00b97d
-  );
-}
+
 
 /* Front card's bottom section */
 .card-front__bt {
@@ -332,7 +327,7 @@ body {
   right: 0;
   transition: all 1s ease;
   width: 15rem;
-  z-index: 1;
+  
 }
 
 .inside-page__container {
