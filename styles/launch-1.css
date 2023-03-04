@@ -8,6 +8,27 @@
 }
 
 
+nav{
+  font-family:'Kanit', sans-serif ;
+  padding: 0px 200px;
+  padding-top: 0px;
+  height: 3px;
+  margin: 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax {
+  background-image: url("../media/Images/106_SpaceTunnel4.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
 
 body {
   box-sizing: border-box;
