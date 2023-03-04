@@ -67,10 +67,11 @@
   }
   
   .back{
-    background: #0b73c2;
+    /* background: #0b73c2;
     background: -webkit-linear-gradient(45deg,  #55a3df 0%,#008b3a 100%);
     background: -o-linear-gradient(45deg,  #264053 0%,#596a72 100%);
-    background: linear-gradient(45deg,  #5a45f6 0%,#300842 100%);
+    background: linear-gradient(45deg,  #5a45f6 0%,#300842 100%); */
+    background-image: url("../media/Images/backgrounds/stars.png");
   }
   
   .front:after{
