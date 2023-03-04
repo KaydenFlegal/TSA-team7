@@ -7,13 +7,8 @@ body{
     --cobalt-blue: #17143b;
 }
 
-nav {
-   height: auto;
-}
 
-.nav-wrapper {
-   position: fixed;
-}
+
 
 .safety-header {
    display: flex;
@@ -29,7 +24,7 @@ nav {
    border-radius: 10em;
 }
 .parallax {
-   padding-top: 200px;
+   padding-top: opx;
     background-image: url("../media/Images/childastronaut.jpg");
     min-height: 500px;
     background-attachment: fixed;
