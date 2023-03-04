@@ -6,6 +6,15 @@ body{
     --desaturated-purple: #3c3347;
     --cobalt-blue: #17143b;
 }
+
+nav {
+   height: auto;
+}
+
+.nav-wrapper {
+   position: fixed;
+}
+
 .safety-header {
    display: flex;
    justify-content: center;
@@ -20,6 +29,7 @@ body{
    border-radius: 10em;
 }
 .parallax {
+   padding-top: 200px;
     background-image: url("../media/Images/childastronaut.jpg");
     min-height: 500px;
     background-attachment: fixed;

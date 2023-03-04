@@ -17,6 +17,10 @@
     /* Custom perspective prop */
     --z-height: 0;
 }
+.other-pages {
+    background-color: transparent;
+    
+}
 
 body {
     background-image: url(../media/Images/backgrounds/stars.png);
