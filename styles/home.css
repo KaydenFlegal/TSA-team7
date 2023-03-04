@@ -77,7 +77,14 @@ main > .destination-wrapper > img {
     width: 100%;
     text-align: center;
     z-index: 1;
+    
 }
+/*h1{
+    background: -webkit-linear-gradient(var(--russian-violet), var(--crimson));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}*/
+
 
 .booking-modal {
     position: fixed;

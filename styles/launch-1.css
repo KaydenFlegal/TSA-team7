@@ -36,7 +36,7 @@
   bottom: 10px;
   font-size: 45px;
   font-family: 'Russo One', sans-serif;
-  color:#03020a;
+  color:var(--penn-blue);
   border-radius: 1em;
 }
 
