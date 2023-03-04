@@ -20,8 +20,16 @@ nav{
   background-size: cover;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width:100%;
+  height:auto;
+}
+
 .parallax {
-  background-image: url("../media/Images/106_SpaceTunnel6.jpg");
+  background-image: url("../media/Images/colorschemespacetunnel.jpg");
   min-height: 300px;
   background-attachment: fixed;
   background-position: center;
