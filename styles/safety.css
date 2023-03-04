@@ -6,7 +6,19 @@ body{
     --desaturated-purple: #3c3347;
     --cobalt-blue: #17143b;
 }
-
+.safety-header {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   position: relative;
+   padding: 2%;
+   margin: 0 30%;
+   bottom: 10px;
+   font-size: 45px;
+   font-family: 'Russo One', sans-serif;
+   
+   border-radius: 10em;
+}
 .parallax {
     background-image: url("../media/Images/childastronaut.jpg");
     min-height: 500px;
