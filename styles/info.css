@@ -9,17 +9,6 @@
 
 }
 
-nav{
-    font-family:'Kanit', sans-serif ;
-    padding: 0px 200px;
-    padding-top: 0px;
-    height: 200px;
-    margin: 0px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
  .parallax {
     background-image: url("../media/Images/backgrounds/stars.png");
