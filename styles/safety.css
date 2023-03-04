@@ -8,7 +8,7 @@ body{
 }
 
 .parallax {
-    background-image: url("../media/Images/old-img/astronaut-2021-08-26-15-29-33-utc.jpg");
+    background-image: url("../media/Images/childastronaut.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
