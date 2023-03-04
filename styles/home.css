@@ -33,7 +33,7 @@ body {
     background-image: url(../media/Images/backgrounds/stars.png);
     background-repeat: repeat;
     color: var(--cream);
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
     margin: 0;
     overflow: hidden;
     height: max-content;
@@ -84,7 +84,7 @@ main > .destination-wrapper > img {
 }
 
 .hero-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Russo One', sans-serif; 
     width: 100%;
     text-align: center;
     z-index: 1;

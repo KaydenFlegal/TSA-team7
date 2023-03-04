@@ -7,7 +7,7 @@
   
   h1{
     font-size: 2.5rem;
-    font-family: 'Montserrat';
+    font-family: 'Kanit', sans-serif;
     font-weight: normal;
     color: #444;
     text-align: center;
@@ -169,7 +169,7 @@
   
   .front .inner span{
     color: rgba(255,255,255,0.7);
-    font-family: 'Montserrat';
+    font-family: 'Russo One', sans-serif; 
     font-weight: 300;
   }
   

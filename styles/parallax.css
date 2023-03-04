@@ -25,7 +25,7 @@ body {
     color:  #d4d4d0;
     width: 290px;
     border-radius: 2px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Kanit', sans-serif;
 }
 
 .hero-section > .bottom-heading {
@@ -34,8 +34,7 @@ body {
     margin-top: 15px;
     width: 200px;
     border-radius: 2px;
-    font-family: 'Golos Text', sans-serif;
-
+    font-family: 'Russo One', sans-serif; 
 }
 
 .safety-info {

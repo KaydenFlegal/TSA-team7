@@ -64,7 +64,7 @@ body {
     font-size: 26px;
     text-align: center;
     padding: 15px 30px;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Kanit', sans-serif;
     margin: 10%;
 }
 
@@ -96,7 +96,7 @@ body {
     text-align: center;
     padding: 80px;
     background-color:#161516;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Kanit', sans-serif;
     text-decoration: none;
     color: var(--off-white);
     margin: 0;
