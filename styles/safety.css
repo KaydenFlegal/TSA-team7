@@ -26,17 +26,7 @@ body{
     background-size: cover;
     
 }
-nav{
-   font-family:'Kanit', sans-serif ;
-   padding: 0px 200px;
-   padding-top: 0px;
-   height: 3px;
-   margin: 0px;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
+
 .squares-wrapper {
     display: flex;
     justify-content: center;
@@ -45,6 +35,8 @@ nav{
  .squares-wrapper > .squares {
     width: 1000px;
     margin-top: 20px;
+    background-color: #17143b6c;
+
  }
 
  .squares-wrapper > .squares > .square {

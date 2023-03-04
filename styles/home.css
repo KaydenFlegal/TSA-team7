@@ -22,17 +22,6 @@
     
 }
 
-
-nav{
-    padding: 200px;
-    padding-top: 0px;
-    height: 300px;
-    margin: 0px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 body {
     background-image: url(../media/Images/backgrounds/stars.png);
     background-repeat: repeat;

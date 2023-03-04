@@ -1,24 +1,22 @@
-body {
-    --yellow: #f0eeb1;
-    --yellow-white: #eeedd2;
-    --off-white: #ecece0;
-    --purple-gray: #272529;
-    --desaturated-purple: #3c3347;
-    --cobalt-blue: #17143b;
-    --off-black: #161516;
+:root {
+    --crimson: #D80032;
+    --rich-black: #00000E;
+    --oxford-blue: #000022;
+    --penn-blue: #001242;
+    --russian-violet: #3A2353;
+    --lavender: #F0E7FA;
+    --magnolia: #F8F0FB;
 }
 
-nav{
-    font-family:'Kanit', sans-serif ;
-    padding: 0px 200px;
-    padding-top: 0px;
-    height: 200px;
-    margin: 0px;
+.parallax-two {
+    background-image: url("../media/Images/colorfulastronaut.jpg");
+    min-height: 550px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+    
+}
 
  .parallax {
     background-image: url("../media/Images/backgrounds/stars.png");
@@ -33,10 +31,13 @@ nav{
 .info-header {
     display: flex;
     justify-content: center;
+    text-align: center;
     position: relative;
-    padding: 18px 3px;
-    margin: 0px 30%;
-    bottom:10px;
+    padding: 2%;
+    margin: 0 30%;
+    bottom: 10px;
     font-size: 45px;
-    background-color: var(--desaturated-purple);
+    font-family: 'Russo One', sans-serif;
+    background-color: #00000e6a;
+    border-radius: 10em;
 }

@@ -8,20 +8,16 @@
 }
 
 
-nav{
-  font-family:'Kanit', sans-serif ;
-  padding: 0px 200px;
-  padding-top: 0px;
-  height: 3px;
-  margin: 0px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width:100%;
+  height:auto;
 }
 
 .parallax {
-  background-image: url("../media/Images/106_SpaceTunnel6.jpg");
+  background-image: url("../media/Images/colorschemespacetunnel.jpg");
   min-height: 300px;
   background-attachment: fixed;
   background-position: center;
@@ -212,7 +208,7 @@ body {
   position: relative;
   transition: all 1s ease;
   width: 15rem;
-
+  
 }
 
 /* Flip card - covering both the front and inside front page */
@@ -254,6 +250,7 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
+  border-radius: 1em;
 }
 
 /* Styling for the front side of the flip card */
@@ -263,12 +260,12 @@ body {
   background-color: #fafbfa;
   height: 15rem;
   width: 15rem;
+  border-radius: 1em;
 }
 
 /* Front side's top section */
 .card-front__tp {
   align-items: center;
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 57% 90%, 50% 100%, 43% 90%, 0 90%);
   display: flex;
   flex-direction: column;
   height: 12rem;
@@ -314,6 +311,7 @@ body {
 .card-back {
   background-color: #fafbfa;
   transform: rotateY(180deg);
+  border-radius: 1em;
 }
 
 /* Inside page */
@@ -327,7 +325,7 @@ body {
   right: 0;
   transition: all 1s ease;
   width: 15rem;
-  
+  border-radius: 1em;
 }
 
 .inside-page__container {
