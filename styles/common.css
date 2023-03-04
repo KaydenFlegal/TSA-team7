@@ -10,7 +10,17 @@ body {
     background-color: var(--purple-gray);
     color:var(--off-white);
 }
-
+nav{
+    font-family:'Kanit', sans-serif ;
+    padding: 0px 200px;
+    padding-top: 0px;
+    height: 200px;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 p, h2, h3, h4, h5, h6 {
     font-family: 'Kanit', sans-serif;
      
