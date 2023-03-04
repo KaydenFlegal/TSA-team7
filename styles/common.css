@@ -6,6 +6,8 @@ body {
     --purple-gray: #272529;
     --desaturated-purple: #3c3347;
     --cobalt-blue: #17143b;
+    --darker-blue: #0b0920;
+    
 
     background-color: var(--cobalt-blue);
     color:var(--off-white);
