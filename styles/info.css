@@ -8,17 +8,15 @@
     --magnolia: #F8F0FB;
 }
 
-nav{
-    font-family:'Kanit', sans-serif ;
-    padding: 0px 200px;
-    padding-top: 0px;
-    height: 200px;
-    margin: 0px;
+.parallax-two {
+    background-image: url("../media/Images/colorfulastronaut.jpg");
+    min-height: 550px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+    
+}
 
  .parallax {
     background-image: url("../media/Images/backgrounds/stars.png");
@@ -40,6 +38,6 @@ nav{
     bottom: 10px;
     font-size: 45px;
     font-family: 'Russo One', sans-serif;
-    background-color: var(--rich-black);
+    background-color: #00000e6a;
     border-radius: 10em;
 }
