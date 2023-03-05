@@ -80,6 +80,9 @@
   animation: pop .5s;
 }
 
+.button .popup a{
+  text-decoration: none;
+}
 
 /* launch table styling */
 table {
