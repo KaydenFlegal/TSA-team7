@@ -82,6 +82,7 @@
 
 .button .popup a{
   text-decoration: none;
+  color: var(--magnolia);
 }
 
 /* launch table styling */
