@@ -1,0 +1,92 @@
+
+
+.parallax {
+  padding-top: 0px;
+   background-image: url("media/Images/Planet\ Earth\ Background\ V1.jpg");
+   min-height: 500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+
+
+/*#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width:100%;
+  height:auto;
+}*/
+
+.launch-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 2%;
+  margin: 0 30%;
+  bottom: 10px;
+  font-size: 45px;
+  font-family: 'Russo One', sans-serif;
+  color:var(--magnolia);
+  border-radius: 1em;
+}
+
+
+.popups-box{
+
+}
+.popups-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+.popups-box li{
+  margin: 50px 0;
+  text-align: center;
+  
+  animation: list-show .2s 1;
+  transition-duration: 2s;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--oxford-blue);
+  padding: 10px;
+  border:1px solid;
+  border-radius: 1em;
+  z-index: 1;
+}
+.button {
+  position: relative;
+}
+.button:hover .popup {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  top:-80%;
+}
+
+
+@keyframes list-show {
+  from {
+      visibility: hidden;
+      opacity: 0;
+      transform: translateX(20%);
+  }
+  to {
+      visibility: visible;
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
