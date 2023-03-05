@@ -82,12 +82,14 @@
 
 .button .popup a{
   text-decoration: none;
-  color: var(--magnolia);
+  color: white;
   transition: transform 0.3s ease-in-out;
 }
 
-.button:hover .popup a{
-  transform: scale(1.2);
+.button .popup a:hover{
+  transform: scale(1.5);
+  color: var(--magnolia);
+
 }
 
 
