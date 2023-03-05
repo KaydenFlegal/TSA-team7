@@ -80,9 +80,15 @@
   animation: pop .5s;
 }
 
-.button .popup a{
+.button .popup a {
   text-decoration: none;
+  color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+.button .popup a:hover {
   color: var(--magnolia);
+  transform: scale(1.1);
 }
 
 /* launch table styling */
