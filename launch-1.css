@@ -66,11 +66,13 @@
   border-radius: 1em;
   z-index: 1;
 }
+
+
 .button {
   position: relative;
 }
 .button:hover .popup {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   top:-20%;
@@ -82,7 +84,11 @@
 table {
   border-collapse: collapse;
   width: 100%;
+  position:relative;
   margin: 0 auto;
+  text-align: center;
+  text-indent: center;
+ 
 }
 
 th, td {
@@ -93,11 +99,16 @@ th, td {
 
 th {
   background-color: #3A2353;
+  
   color: white;
 }
 
 .header{
   text-align: center;
+}
+
+thead{
+  display: flex;
 }
 
 th:first-child {
