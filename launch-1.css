@@ -45,7 +45,7 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-  padding: 0;
+  padding: 5px;
 }
 
 .popups-box li{
@@ -74,7 +74,7 @@
   display: block;
   justify-content: center;
   align-items: center;
-  top:-80%;
+  top:-20%;
   animation: pop .5s;
 }
 
