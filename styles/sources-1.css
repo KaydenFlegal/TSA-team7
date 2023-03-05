@@ -1,3 +1,28 @@
+.parallax {
+  background-image: url("../media/Images/astronautholdingglobe.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.sources-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 2%;
+  margin: 0 30%;
+  bottom: 10px;
+  font-size: 45px;
+  font-family: 'Russo One', sans-serif;
+  
+  border-radius: 10em;
+}
+
+
 table {
    text-align: center;
     width: 90%;
