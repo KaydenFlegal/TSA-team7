@@ -58,6 +58,7 @@
 .popup {
   display: none;
   position: absolute;
+  justify-content: space-between;
   top: 0;
   left: 0;
   background-color: var(--oxford-blue);
@@ -75,7 +76,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  top:-20%;
+  top:-60%;
   animation: pop .5s;
 }
 
@@ -95,6 +96,7 @@ th, td {
   text-align: center;
   padding: 10px;
   border: 1px solid #3A2353;
+  ;
 }
 
 th {
