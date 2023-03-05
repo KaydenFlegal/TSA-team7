@@ -88,7 +88,7 @@
 
 .button .popup a:hover {
   color: var(--magnolia);
-  transform: scale(1.1);
+  transform: scale(2);
 }
 
 /* launch table styling */
