@@ -92,3 +92,18 @@ body{
     text-decoration: none;
     color: var(--off-white);
  }
+
+
+@media (max-width: 616px) {
+   
+ .square {
+   grid-template-columns: 1fr !important;
+}
+.square > .square-text-wrapper {
+   order: 1;
+}
+
+.square > .img-wrapper {
+   order: 2;
+}
+}
