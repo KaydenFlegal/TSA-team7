@@ -25,7 +25,7 @@ body{
 }
 .safety .parallax {
    padding-top: opx;
-    background-image: url("../media/Images/childastronaut2.png");
+    background-image: url("../media/Images/childastronaut.png");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
