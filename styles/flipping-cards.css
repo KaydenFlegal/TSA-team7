@@ -134,7 +134,7 @@
       -webkit-transform-style: preserve-3d;
               transform-style: preserve-3d;
   }
-  
+
   .container:hover .back{
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
@@ -147,6 +147,26 @@
             transform: rotateY(-180deg);
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
+  }
+
+  .container .front.vertical-flip{
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+  
+  .container .back.vertical-flip{
+    -webkit-transform: rotateX(180deg);
+              transform: rotateX(180deg);
+  }
+  .container:hover .front.vertical-flip {
+    -webkit-transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
+  }
+  .container:hover .back.vertical-flip{
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
   }
   
   .front .inner p{
