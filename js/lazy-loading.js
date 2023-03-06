@@ -73,4 +73,10 @@ $(window).ready(function(){
             return false;
         }
     );
+
+    /* Add back and forth nav */
+    window.location.href
+    window.onpopstate = (event) => {
+        window.location.href = document.location;
+    };
 });
