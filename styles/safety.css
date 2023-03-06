@@ -24,7 +24,7 @@ body{
    border-radius: 10em;
 }
 .safety .parallax {
-   padding-top: opx;
+   padding-top: 0px;
     background-image: url("../media/Images/childastronaut.png");
     min-height: 500px;
     background-attachment: fixed;
@@ -63,7 +63,7 @@ body{
  .safety .squares-wrapper > .squares {
     width: 1000px;
     margin-top: 20px;
-    background-color: #0a0827;
+    background-color: #0a0827af;
 
  }
 
