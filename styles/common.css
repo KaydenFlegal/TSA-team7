@@ -44,6 +44,10 @@ h1 {
     font-family: 'Russo One', sans-serif;
 }
 
+body img{
+    pointer-events: none;
+}
+
 
 /* 
 new little font: font-family: 'Kanit', sans-serif;
