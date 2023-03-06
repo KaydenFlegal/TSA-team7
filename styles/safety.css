@@ -86,6 +86,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 42px;
+    padding-bottom: 0px;
  }
 
  .safety .square > .square-text-wrapper a{
