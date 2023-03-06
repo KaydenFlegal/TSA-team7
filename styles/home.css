@@ -17,30 +17,18 @@
     /* Custom perspective prop */
     --z-height: 0;
 }
-.other-pages {
-    background-color: transparent;
-    
-}
 
-body {
+.home {
     background-image: url(../media/Images/backgrounds/stars.png);
     background-repeat: repeat;
     color: var(--cream);
     font-family: 'Kanit', sans-serif;
     margin: 0;
     overflow: hidden;
-    height: max-content;
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-
+    height: 100vh;
 }
 
-body > * {
-    flex: 0 1 auto;
-}
-
-main {
+.home main {
     perspective: 1000px;
     perspective-origin: top;
 
@@ -48,7 +36,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 }
-main > .destination-wrapper {
+.home main > .destination-wrapper {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -61,7 +49,7 @@ main > .destination-wrapper {
     transform: scale(var(--planet-scale)) translateZ(var(--z-height));
 }
 
-main > .destination-wrapper > .btn {
+.home main > .destination-wrapper > .btn {
     color: white!important;
     background-color: var(--red);
 
@@ -70,13 +58,13 @@ main > .destination-wrapper > .btn {
     right: 25%;
 }
 
-main > .destination-wrapper > img {
+.home main > .destination-wrapper > img {
     width: 75vw;
     height: 75vh;
     object-fit: contain;
 }
 
-.hero-title {
+.home .hero-title {
     font-family: 'Russo One', sans-serif; 
     width: 100%;
     text-align: center;
@@ -90,7 +78,7 @@ main > .destination-wrapper > img {
 }*/
 
 
-.booking-modal {
+.home .booking-modal {
     position: fixed;
     right: 12.5vw;
     top:12.5vh;
@@ -108,14 +96,14 @@ main > .destination-wrapper > img {
 
 }
 
-.booking-modal > .btn-close {
+.home .booking-modal > .btn-close {
     color: var(--cream);
     width: 1em;
     height: 1em;
     align-self: flex-end;
 }
 
-.booking-modal > .calendar > table {
+.home .booking-modal > .calendar > table {
     width: 100%;
     max-height: 65vh;
     aspect-ratio: 7/6;
@@ -123,7 +111,7 @@ main > .destination-wrapper > img {
 }
 
 /* add border to calender */ 
-.booking-modal > .calendar > table > tbody > tr > td {
+.home .booking-modal > .calendar > table > tbody > tr > td {
     border: 1px solid var(--cream);
     border-collapse: separate;
     padding: 0.75em;
@@ -132,15 +120,15 @@ main > .destination-wrapper > img {
 }
 
 /* bevel Border on corner td's */ 
-.booking-modal > .calendar > table > tbody > tr:first-child > :first-child {
+.home .booking-modal > .calendar > table > tbody > tr:first-child > :first-child {
     border-radius: 10px;
 }
 
-.booking-modal > .calendar > table > tbody > tr > .selected-date{
+.home .booking-modal > .calendar > table > tbody > tr > .selected-date{
     background-color: var(--red);
 }
 
-.booking-modal .price {
+.home .booking-modal .price {
     min-height: 3.5em;
     display: flex;
     align-items: center;
@@ -151,12 +139,12 @@ main > .destination-wrapper > img {
 
 }
 
-.booking-modal .price > .btn{
+.home .booking-modal .price > .btn{
     background-color: var(--red);
 	color: white!important;
 }
 
-.destination-selector {
+.home .destination-selector {
     font-size: 1.5em;
     padding-right: 0.5em;
 

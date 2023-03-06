@@ -10,7 +10,7 @@ body{
 
 
 
-.safety-header {
+.safety .safety-header {
    display: flex;
    justify-content: center;
    text-align: center;
@@ -23,7 +23,7 @@ body{
    
    border-radius: 10em;
 }
-.parallax {
+.safety .parallax {
    padding-top: opx;
     background-image: url("../media/Images/childastronaut2.png");
     min-height: 500px;
@@ -34,7 +34,7 @@ body{
     
 }
 
-.parallax-two {
+.safety .parallax-two {
     background-image: url("../media/Images/old-img/astronaut-2021-08-26-15-29-33-utc.jpg");
     min-height: 300px;
     background-attachment: fixed;
@@ -45,32 +45,32 @@ body{
 }
 
 
-.squares-wrapper {
+.safety .squares-wrapper {
     display: flex;
     justify-content: center;
  }
 
- .squares-wrapper > .squares {
+ .safety .squares-wrapper > .squares {
     width: 1000px;
     margin-top: 20px;
     background-color: #0a082786;
 
  }
 
- .squares-wrapper > .squares > .square {
+ .safety .squares-wrapper > .squares > .square {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: -4px;
  }
 
- .square > .img-wrapper img {
+ .safety .square > .img-wrapper img {
     width: 100%;
     height: 500px;
     object-fit: cover;
   margin-bottom: 4px;
  }
 
- .square > .square-text-wrapper{
+ .safety .square > .square-text-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@ body{
     padding: 42px;
  }
 
- .square > .square-text-wrapper a{
+ .safety .square > .square-text-wrapper a{
     text-decoration: none;
     color: var(--off-white);
  }

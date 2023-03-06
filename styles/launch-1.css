@@ -1,6 +1,6 @@
 
 
-.parallax {
+.launch-1 .parallax {
   padding-top: 0px;
    background-image: url("../media/Images/Planet\ Earth\ Background\ V1.jpg");
    min-height: 500px;
@@ -8,7 +8,6 @@
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   
 }
 
 /*#myVideo {
@@ -19,7 +18,7 @@
   height:auto;
 }*/
 
-.launch-header {
+.launch-1 .launch-header {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -33,12 +32,7 @@
   border-radius: 1em;
 }
 
-
-.popups-box{
-
-}
-
-.popups-box {
+.launch-1 .popups-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,7 +41,7 @@
   padding: 5px;
 }
 
-.popups-box li{
+.launch-1 .popups-box li{
   margin: 50px 0;
   text-align: center;
   
@@ -55,7 +49,7 @@
   transition-duration: 2s;
 }
 
-.popup {
+.launch-1 .popup {
   display: none;
   position: absolute;
   justify-content: space-between;
@@ -69,10 +63,10 @@
 }
 
 
-.button {
+.launch-1 .button {
   position: relative;
 }
-.button:hover .popup {
+.launch-1 .button:hover .popup {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,13 +74,13 @@
   animation: pop .5s;
 }
 
-.button .popup a{
+.launch-1 .button .popup a{
   text-decoration: none;
   color: white;
   transition: transform 0.3s ease-in-out;
 }
 
-.button .popup a:hover{
+.launch-1 .button .popup a:hover{
   transform: scale(1.5);
   color: var(--magnolia);
 
@@ -94,7 +88,7 @@
 
 
 /* launch table styling */
-table {
+.launch-1 table {
   border-collapse: collapse;
   width: 100%;
   position:relative;
@@ -104,20 +98,20 @@ table {
  
 }
 
-th, td {
+.launch-1 th, td {
   text-align: center;
   padding: 10px;
   border: 1px solid #3A2353;
   ;
 }
 
-th {
+.launch-1 th {
   background-color: #3A2353;
   
   color: white;
 }
 
-.header{
+.launch-1 .header{
   text-align: center;
 }
 
@@ -125,27 +119,27 @@ th {
   display: flex;
 }*/
 
-th:first-child {
+.launch-1 th:first-child {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-th:last-child {
+.launch-1 th:last-child {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-td:first-child {
+.launch-1 td:first-child {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-td:last-child {
+.launch-1 td:last-child {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-tfoot td {
+.launch-1 tfoot td {
   background-color: #3A2353;
   color: white;
   border-top: none;
