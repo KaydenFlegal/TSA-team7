@@ -24,7 +24,7 @@ body{
    border-radius: 10em;
 }
 .safety .parallax {
-   padding-top: opx;
+   padding-top: 0px;
     background-image: url("../media/Images/childastronaut.png");
     min-height: 500px;
     background-attachment: fixed;
@@ -63,7 +63,7 @@ body{
  .safety .squares-wrapper > .squares {
     width: 1000px;
     margin-top: 20px;
-    background-color: #0a0827;
+    background-color: #0a0827af;
 
  }
 
@@ -86,9 +86,25 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 42px;
+    padding-bottom: 0px;
  }
 
  .safety .square > .square-text-wrapper a{
     text-decoration: none;
     color: var(--off-white);
  }
+
+
+@media (max-width: 616px) {
+   
+ .square {
+   grid-template-columns: 1fr !important;
+}
+.square > .square-text-wrapper {
+   order: 1;
+}
+
+.square > .img-wrapper {
+   order: 2;
+}
+}

@@ -76,7 +76,7 @@
 
 .launch-1 .button .popup a{
   text-decoration: none;
-  color: white;
+  color: var(--magnolia);
   transition: transform 0.3s ease-in-out;
 }
 
