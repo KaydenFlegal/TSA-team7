@@ -1,6 +1,7 @@
 .parallax {
   background-image: url("../media/Images/astronautholdingglobe.jpg");
   min-height: 100vh;
+  width: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
