@@ -33,6 +33,16 @@ body{
     background-size: cover;
     
 }
+.safety .parallax-end {
+   padding-top: 0px;
+    background-image: url("../media/Images/childastronaut.png");
+    min-height: 10vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 .safety .parallax-two {
     background-image: url("../media/Images/old-img/astronaut-2021-08-26-15-29-33-utc.jpg");
@@ -53,7 +63,7 @@ body{
  .safety .squares-wrapper > .squares {
     width: 1000px;
     margin-top: 20px;
-    background-color: #0a082786;
+    background-color: #0a0827;
 
  }
 
