@@ -3,7 +3,7 @@
 
     /*Emphasized Color Scheme*/
     --deep-red: #73161E;
-    --red: #cc8f1e;
+    --red: #BF2633;
     --cream: #F8F0FB;
     --tan: #F29580;
     --black: #000000;
@@ -26,6 +26,7 @@
     margin: 0;
     overflow: hidden;
     height: 100vh;
+    width: 100vw;
 }
 
 .home main {
