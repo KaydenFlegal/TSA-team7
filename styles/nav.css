@@ -47,6 +47,18 @@ nav .nav-wrapper {
     }
   }
 
+.logo-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    
+}
 
+.logo-wrapper > img {
+    width: 150px;
+    height: 150px;
+}
 
-
+nav {
+    display: flex;
+    justify-content: space-between;
+}
