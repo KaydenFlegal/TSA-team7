@@ -53,6 +53,16 @@ $(window).on("load", function(){
 
             newPage.find("head meta").remove();
             newPage.find("head title").remove();
+            /* Fixed Links */
+            let CurrentLink = new URL(element.href);// As if from another page
+            newPage.find("[href]").each((index, problematicHref) => {
+
+                console.log("HERE1: "+new URL(problematicHref.href, CurrentLink)+"\n"+CurrentLink);
+                $(element).href = (new URL(problematicHref.href, CurrentLink)).toString();
+            });
+            newPage.find("[src]").each((index, problematicHref) => {
+                element.href = new URL(problematicHref.href, CurrentLink);
+            });
 
             /* Inserted into head */
             $("head").append(newPage.find("head").children().addClass("keep"));
@@ -81,7 +91,6 @@ function AnimationPlayer(evt){
     if (className == "") className = "home";
     let targetElement = $("."+className);
     if(newPageURL == window.location.href || PlayingAnimation) {
-        console.log("here");
         evt.preventDefault();
         return false; /* Ignore Current File */
     }
