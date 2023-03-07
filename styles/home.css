@@ -156,3 +156,21 @@
     z-index: 99;
 }
 
+#scroll-highlight {
+    display:inline;
+    opacity: 0;
+    cursor: default;
+}
+
+
+@keyframes blinking {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 0;
+    }
+}

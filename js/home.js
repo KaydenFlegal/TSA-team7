@@ -69,6 +69,7 @@ function onPageLoad() {
     $(document).on("wheel", (e) => {
         if(disableScroll) return;
 
+        $("#scroll-highlight").css("animation", "none");
         disableScroll = true;
         setTimeout(enableScroll, 100);
         console.log(e.originalEvent.deltaY);
