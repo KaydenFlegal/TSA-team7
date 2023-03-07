@@ -43,7 +43,7 @@ nav .nav-wrapper {
 
 @media screen and (max-width: 600px) {
     nav{
-        padding: 0px;
+        padding: 0px !important;
     }
   }
 
