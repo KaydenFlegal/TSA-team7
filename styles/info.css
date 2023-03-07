@@ -8,8 +8,8 @@
     --magnolia: #F8F0FB;
 }
 
-.info .parallax-two {
-    background-image: url("../media/Images/astronautholdingglobe.jpg");
+.planning .parallax-two {
+    background-image: url("../media/Images/spin-moon-orbit-motion-milky-way-galaxy-background-2021-12-09-20-06-10-utc.jpg");
     min-height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -19,7 +19,7 @@
     
 }
 
-.info .parallax {
+.planning .parallax {
     background-image: url("../media/Images/backgrounds/stars.png");
     min-height: 100%;
     background-attachment: fixed;
@@ -29,7 +29,7 @@
     
 }
 
-.info .info-header {
+.planning .planning-header {
     display: flex;
     justify-content: center;
     text-align: center;

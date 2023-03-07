@@ -1,11 +1,11 @@
-*{
+.planning *{
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
   
-  h1{
+  .planning h1{
     font-size: 2.5rem;
     font-family: 'Kanit', sans-serif;
     font-weight: normal;
@@ -14,13 +14,13 @@
     margin: 2rem 0;
   }
   
-  .wrapper{
+  .planning .wrapper{
     width: 90%;
     margin: 0 auto;
     max-width: 80rem;
   }
   
-  .cols{
+  .planning .cols{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -31,21 +31,21 @@
             justify-content: center;
   }
   
-  .col{
+  .planning .col{
     width: calc(25% - 2rem);
     margin: 1rem;
     cursor: pointer;
   }
   
-  .container{
+  .planning .container{
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
       -webkit-perspective: 1000px;
               perspective: 1000px;
   }
   
-  .front,
-  .back{
+  .planning .front,
+  .planning .back{
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
     border-radius: 10px;
@@ -66,7 +66,7 @@
       overflow: hidden;
   }
   
-  .back{
+  .planning .back{
     /* background: #0b73c2;
     background: -webkit-linear-gradient(45deg,  #55a3df 0%,#008b3a 100%);
     background: -o-linear-gradient(45deg,  #264053 0%,#596a72 100%);
@@ -74,7 +74,7 @@
     background-image: url("../media/Images/backgrounds/stars.png");
   }
   
-  .front:after{
+  .planning .front:after{
       position: absolute;
       top: 0;
       left: 0;
@@ -89,8 +89,8 @@
               backface-visibility: hidden;
       border-radius: 10px;
   }
-  .container:hover .front,
-  .container:hover .back{
+  .planning .container:hover .front,
+  .planning .container:hover .back{
       -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
       transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
       -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -98,14 +98,14 @@
       transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
   }
   
-  .back{
+  .planning .back{
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
   }
   
-  .inner{
+  .planning .inner{
       -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
               transform: translateY(-50%) translateZ(60px) scale(0.94);
       top: 50%;
@@ -121,61 +121,61 @@
       z-index: 2;
   }
   
-  .container .back{
+  .planning .container .back{
       -webkit-transform: rotateY(180deg);
               transform: rotateY(180deg);
       -webkit-transform-style: preserve-3d;
               transform-style: preserve-3d;
   }
   
-  .container .front{
+  .planning .container .front{
       -webkit-transform: rotateY(0deg);
               transform: rotateY(0deg);
       -webkit-transform-style: preserve-3d;
               transform-style: preserve-3d;
   }
 
-  .container:hover .back{
+  .planning .container:hover .back{
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
   }
   
-  .container:hover .front{
+  .planning .container:hover .front{
     -webkit-transform: rotateY(-180deg);
             transform: rotateY(-180deg);
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
   }
 
-  .container .front.vertical-flip{
+  .planning .container .front.vertical-flip{
     -webkit-transform: rotateX(0deg);
             transform: rotateX(0deg);
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
 }
   
-  .container .back.vertical-flip{
+  .planning .container .back.vertical-flip{
     -webkit-transform: rotateX(180deg);
               transform: rotateX(180deg);
   }
-  .container:hover .front.vertical-flip {
+  .planning .container:hover .front.vertical-flip {
     -webkit-transform: rotateX(-180deg);
     transform: rotateX(-180deg);
   }
-  .container:hover .back.vertical-flip{
+  .planning .container:hover .back.vertical-flip{
     -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
   }
   
-  .front .inner p{
+  .planning .front .inner p{
     font-size: 2rem;
     margin-bottom: 2rem;
     position: relative;
   }
   
-  .front .inner p:after{
+  .planning .front .inner p:after{
     content: '';
     width: 4rem;
     height: 2px;
@@ -188,20 +188,20 @@
     bottom: -.75rem;
   }
   
-  .front .inner span{
+  .planning .front .inner span{
     color: rgba(255,255,255,0.7);
     font-family: 'Russo One', sans-serif; 
     font-weight: 300;
   }
   
   @media screen and (max-width: 64rem){
-    .col{
+    .planning .col{
       width: calc(33.333333% - 2rem);
     }
   }
   
   @media screen and (max-width: 48rem){
-    .col{
+    .planning .col{
       width: calc(50% - 2rem);
     }
   }
