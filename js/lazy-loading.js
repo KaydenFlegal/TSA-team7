@@ -5,7 +5,7 @@ var currentPage = window.location.href.replace(/^.*(\\|\/|\:)/, "").replace(".ht
 if (currentPage == "") currentPage = "home";
 
 $(window).on("load", function(){
-    let links = $(".nav-wrapper a");
+    let links = $(".nav-wrapper a").not($("footer a"));
     links.each((index, element) => {
         if(element.href == window.location.href) return;
         fetch(element.href).then((response) => response.text())
@@ -54,14 +54,20 @@ $(window).on("load", function(){
             newPage.find("head meta").remove();
             newPage.find("head title").remove();
             /* Fixed Links */
-            let CurrentLink = new URL(element.href);// As if from another page
+            let CurrentLink = new URL(element.href, window.location.href);// As if from another page
+            
             newPage.find("[href]").each((index, problematicHref) => {
-
-                console.log("HERE1: "+new URL(problematicHref.href, CurrentLink)+"\n"+CurrentLink);
-                $(element).href = (new URL(problematicHref.href, CurrentLink)).toString();
+                if(className == "home"){
+                    console.log("problematicHref");
+                    console.log(problematicHref.href);
+                    problematicHref.href = new URL("../", problematicHref.href);
+                }
             });
-            newPage.find("[src]").each((index, problematicHref) => {
-                element.href = new URL(problematicHref.href, CurrentLink);
+
+            newPage.find("[src]").each((index, problematic) => {
+                if(className == "home"){
+                    problematic.src = new URL("../", problematic.src);
+                }
             });
 
             /* Inserted into head */
@@ -73,7 +79,7 @@ $(window).on("load", function(){
               }, "100");
         });
     });
-    $("a").click(
+    $("a").not($("footer a")).click(
         AnimationPlayer
     );
 

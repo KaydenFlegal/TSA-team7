@@ -49,7 +49,9 @@ body img{
     pointer-events: none;
 }
 
-
+.home, .launch, .planning, .safety, .sources, .time.html {
+    width: 100vw;
+}
 /* 
 new little font: font-family: 'Kanit', sans-serif;
 old little font: font-family: 'Space Mono', monospace;
