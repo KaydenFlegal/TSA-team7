@@ -75,7 +75,7 @@ function onPageLoad() {
 
     });
 
-
+    
     movePlanets(2);
 
     /* create modal vars */
@@ -131,7 +131,7 @@ function onPageLoad() {
         }
     })
 }
-
+$(document).ready(onPageLoad);
 
 if(document.readyState === 'complete'){
     console.log("Path 1");

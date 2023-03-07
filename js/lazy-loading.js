@@ -1,8 +1,10 @@
 var otherPageInfo = {};
 var otherPageHTMLString = {};
 var PlayingAnimation = false;
+var currentPage = window.location.href.replace(/^.*(\\|\/|\:)/, "").replace(".html", "").replace("index", "home");
+if (currentPage == "") currentPage = "home";
 
-$(document).ready(function(){
+$(window).on("load", function(){
     let links = $(".nav-wrapper a");
     links.each((index, element) => {
         if(element.href == window.location.href) return;
@@ -18,6 +20,7 @@ $(document).ready(function(){
             let newPage = $(doc);
 
             let className = element.href.replace(/^.*(\\|\/|\:)/, "").replace(".html", "").replace("index", "home");
+            if (className == "") className = "home";
 
             let newPageElements = $('<div class="other-page '+className+'"></div>');
 
@@ -30,7 +33,7 @@ $(document).ready(function(){
             /* Find everything to add to Document */
             
             /* Inserted into body */
-            newPage.find("nav").css("opacity", "0").css("z-index", "-1000");
+            //newPage.find("nav").css("opacity", "0").css("z-index", "-1000");
             newPageElements.html(newPage.find("body").html());
 
             /* remove duplicates */
@@ -53,10 +56,14 @@ $(document).ready(function(){
 
             /* Inserted into head */
             $("head").append(newPage.find("head").children().addClass("keep"));
+            setTimeout(() => {
+                $("a").click(
+                    AnimationPlayer
+                );
+              }, "100");
         });
     });
-    
-    links.click(
+    $("a").click(
         AnimationPlayer
     );
 
@@ -70,7 +77,9 @@ $(document).ready(function(){
 function AnimationPlayer(evt){
     evt.preventDefault();
     let newPageURL = evt.target.href;
-    let targetElement = $("."+newPageURL.replace(/^.*(\\|\/|\:)/, "").replace(".html", "").replace("index", "home"));
+    let className = newPageURL.replace(/^.*(\\|\/|\:)/, "").replace(".html", "").replace("index", "home");
+    if (className == "") className = "home";
+    let targetElement = $("."+className);
     if(newPageURL == window.location.href || PlayingAnimation) {
         console.log("here");
         evt.preventDefault();
@@ -78,15 +87,25 @@ function AnimationPlayer(evt){
     }
 
     // Updating User History and Current URL
-    window.history.pushState({ additionalInformation: 'Updated the URL with JS' }, $("title").text(), evt.target.href);// NOTE: keeps title from current page not all pages
-    window.history.replaceState({ additionalInformation: 'Updated the URL with JS' }, $("title").text(), evt.target.href);
+    let newURL = new URL(evt.target.href, window.location.href)
+    window.history.pushState({ additionalInformation: 'Updated the URL with JS from lazy-loading.js' }, $("title").text(), newURL);// NOTE: keeps title from current page not all pages
+    window.history.replaceState({ additionalInformation: 'Updated the URL with JS from lazy-loading.js' }, $("title").text(), newURL);
+
+    /* Animation Time!! */
+    let lastPage = currentPage;
+    currentPage = className;
+    $("."+lastPage).css("position", "fixed");
+    targetElement.css("z-index", 1000);
 
     PlayingAnimation = true;
     targetElement.delay( 50 ).animate({
         left: 0
         }, 1500, function() {
+            $("."+currentPage).css("position", "relative");
             console.log("Done with Animation")
+            $("."+lastPage).css("left", "100%");
             PlayingAnimation = false;
+            targetElement.css("z-index", 100);
         });
     
     return false;
