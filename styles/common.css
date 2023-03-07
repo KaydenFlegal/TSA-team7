@@ -5,9 +5,9 @@
 
 body, .other-pages {
     margin: 0px;
-    --yellow: #F8F0FB;
-    --yellow-white: #F8F0FB;
-    --off-white: #F8F0FB;
+    --yellow: #f0eeb1;
+    --yellow-white: #eeedd2;
+    --off-white: #ecece0;
     --purple-gray: #272529;
     --desaturated-purple: #3c3347;
     --cobalt-blue: #17143b;
@@ -27,7 +27,7 @@ body, .other-pages {
 }
 nav{
     font-family:'Kanit', sans-serif ;
-    padding: 0px 0px!important;
+    padding: 0px 200px;
     padding-top: 0px;
     height: 200px;
     margin: 0px;
@@ -49,9 +49,6 @@ body img{
     pointer-events: none;
 }
 
-body :is(.home, .launch, .planning, .safety, .sources){
-    width: 100vw;
-}
 
 /* 
 new little font: font-family: 'Kanit', sans-serif;
