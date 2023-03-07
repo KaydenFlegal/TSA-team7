@@ -26,7 +26,7 @@ $(window).on("load", function(){
 
             /* Add CSS to prevent page from showing */
             newPageElements.css("position", "fixed")
-            .css("top", "0").css("left", "100%").css("width", "100%").css("z-index", 100);
+            .css("top", "0").css("left", "100%").css("z-index", 100);
 
             newPageElements.appendTo("body");
 

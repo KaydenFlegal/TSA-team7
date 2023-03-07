@@ -26,7 +26,7 @@ body, .other-pages {
 }
 nav{
     font-family:'Kanit', sans-serif ;
-    padding: 0px 200px;
+    padding: 0px 200px!important;
     padding-top: 0px;
     height: 200px;
     margin: 0px;
@@ -48,6 +48,9 @@ body img{
     pointer-events: none;
 }
 
+body :is(.home, .launch, .planning, .safety, .sources){
+    width: 100vw;
+}
 
 /* 
 new little font: font-family: 'Kanit', sans-serif;

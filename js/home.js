@@ -1,5 +1,6 @@
 let discount = 1;
 let planetIndex = 0;
+let disableScroll = false;
 
 function movePlanets(newIndex) {
     let targetValue = -10000;
@@ -11,7 +12,7 @@ function movePlanets(newIndex) {
     });
 
     /* Set name of planet */
-    let names = ["Mercury", "Venus", "Xpedition", "Mars", "Jupiter"];
+    let names = ["Mercury", "Venus", "Better Horizons", "Mars", "Jupiter"];
     $(".hero-title").html(names[newIndex]);
 
     if(newIndex == 2 || newIndex == 3){
@@ -58,10 +59,19 @@ function updateCalendar(cells, selectedStartPos, selectedEndPos, discount){
     });
 }
 
+function enableScroll(){
+    disableScroll = false;
+}
+
 function onPageLoad() {
     console.log("Loading Home")
     /* scroll through planets using scroll wheel */
     $(document).on("wheel", (e) => {
+        if(disableScroll) return;
+
+        disableScroll = true;
+        setTimeout(enableScroll, 100);
+        console.log(e.originalEvent.deltaY);
         if($("main > .destination-wrapper").first().is(':animated')) return;
         if(e.originalEvent.deltaY > 0){
             movePlanets(Math.min(planetIndex+1, $("main > .destination-wrapper").length-1));

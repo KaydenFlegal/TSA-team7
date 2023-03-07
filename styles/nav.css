@@ -7,7 +7,7 @@ body{
     --cobalt-blue: #17143b;
 }
 
-.nav-wrapper {
+nav .nav-wrapper {
     z-index: 125;
     padding: 20px;
     margin: 32px;
