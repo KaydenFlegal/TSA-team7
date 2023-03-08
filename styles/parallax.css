@@ -9,7 +9,6 @@ body {
 
 
 .hero-section {
-    background-image: url(../media/team5/5.jpg);
     padding: 200px;
     padding-top: 0px;
     height: 900px;
@@ -38,7 +37,6 @@ body {
 }
 
 .safety-info {
-    background-image: url(../media/team5/8.jpg);
     padding: 200px;
     padding-top: 0px;
     height: 800px;
